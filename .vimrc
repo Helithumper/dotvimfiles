@@ -7,7 +7,10 @@ set nocompatible
 
 set number
 
-highlight LineNr guibg=grey
+" highlight LineNr guibg=grey
+
+colorscheme dracula
+"highlight Normal ctermbg=NONE
 
 " NERDTREE SHORTCUTS
 map <C-n> :NERDTreeToggle<CR>
